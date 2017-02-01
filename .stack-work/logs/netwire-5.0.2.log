@@ -1,0 +1,30 @@
+Configuring netwire-5.0.2...
+Building netwire-5.0.2...
+Preprocessing library netwire-5.0.2...
+[ 1 of 14] Compiling FRP.Netwire.Utils.Timeline ( FRP/Netwire/Utils/Timeline.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/FRP/Netwire/Utils/Timeline.o )
+
+FRP/Netwire/Utils/Timeline.hs:32:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 2 of 14] Compiling Control.Wire.Session ( Control/Wire/Session.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Session.o )
+[ 3 of 14] Compiling Control.Wire.Core ( Control/Wire/Core.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Core.o )
+[ 4 of 14] Compiling Control.Wire.Run ( Control/Wire/Run.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Run.o )
+[ 5 of 14] Compiling Control.Wire.Time ( Control/Wire/Time.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Time.o )
+[ 6 of 14] Compiling Control.Wire.Unsafe.Event ( Control/Wire/Unsafe/Event.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Unsafe/Event.o )
+[ 7 of 14] Compiling Control.Wire.Event ( Control/Wire/Event.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Event.o )
+[ 8 of 14] Compiling Control.Wire.Interval ( Control/Wire/Interval.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Interval.o )
+[ 9 of 14] Compiling Control.Wire.Switch ( Control/Wire/Switch.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire/Switch.o )
+
+Control/Wire/Switch.hs:38:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[10 of 14] Compiling Control.Wire     ( Control/Wire.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Wire.o )
+[11 of 14] Compiling FRP.Netwire.Analyze ( FRP/Netwire/Analyze.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/FRP/Netwire/Analyze.o )
+[12 of 14] Compiling FRP.Netwire.Move ( FRP/Netwire/Move.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/FRP/Netwire/Move.o )
+[13 of 14] Compiling FRP.Netwire.Noise ( FRP/Netwire/Noise.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/FRP/Netwire/Noise.o )
+[14 of 14] Compiling FRP.Netwire      ( FRP/Netwire.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/FRP/Netwire.o )
+Installing library in
+/home/andrew/Haskell/HaskArrow/.stack-work/install/x86_64-linux/lts-7.18/8.0.1/lib/x86_64-linux-ghc-8.0.1/netwire-5.0.2-9iuAZVAX0K01znL8osg9ix
+Registering netwire-5.0.2...
